@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abd2d74b-b1bf-42b5-b6f6-ec42add2f33b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PointApplication/IntegerArrays.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,14 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PointApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PointApplication/PointApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegerArrays.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PointApplication/IntegerArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,12 +178,13 @@
         <option value="$PROJECT_DIR$/src/PointApplication/Point/ZZZ.java" />
         <option value="$PROJECT_DIR$/src/PointApplication/Point/Point.java" />
         <option value="$PROJECT_DIR$/src/PointApplication/PointApplication.java" />
+        <option value="$PROJECT_DIR$/src/PointApplication/IntegerArrays.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2047" />
-    <option name="y" value="-85" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1812" />
+    <option name="y" value="-155" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -409,7 +421,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2047" y="-85" width="1920" height="1040" extended-state="0" />
+    <frame x="-1812" y="-155" width="1920" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,25 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1073,11 +1066,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PointApplication/PointApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PointApplication/IntegerArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
