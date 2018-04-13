@@ -20,7 +20,7 @@ public class PointApplication {
 
         point.printThisPoint();
 
-       /* pointController.addX();
+        pointController.addX();
         System.out.println(point.getX());
 
         pointController.minusX();
@@ -31,7 +31,6 @@ public class PointApplication {
 
         pointController.minusY();
         System.out.println(point.getY());
-*/
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose a number from 1 to 4");
