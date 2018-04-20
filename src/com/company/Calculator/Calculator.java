@@ -15,7 +15,7 @@ public class Calculator {
     }
 
     public double add(double a, double b, double c, int d) {
-        return a + b + c + d;
+        return add(a, b, c) + d;
     }
 
     public int subtract(int a, int b) {
@@ -27,7 +27,7 @@ public class Calculator {
     }
 
     public double subtract(double a, double b, double c) {
-        return a - b - c;
+        return subtract(a, b) - c;
     }
 
     public int multiply(int a, int b) {
@@ -43,7 +43,7 @@ public class Calculator {
     }
 
     public double divide(double a, double b, int c) {
-        return a / b / c;
+        return divide(a, b) / c;
     }
 }
 

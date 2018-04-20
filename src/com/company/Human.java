@@ -4,7 +4,10 @@ public class Human extends Humans {
     private String name;
     private String age;
 
-  public Human(String name, String age){
+    public Human() {
+    }
+
+    public Human(String name, String age){
         this.name = name;
         this.age = age;
     }
@@ -25,13 +28,8 @@ public class Human extends Humans {
         this.age = age;
     }
 
-    public void printHuman(Human human) {
+    public Human printThisHuman(Human human){
         System.out.println(human.getName() + human.getAge());
-    }
-
-    public Human printThisHuman(){
-
-        //System.out.println(human.getName() + human.getAge());
         return this;
     }
 }
