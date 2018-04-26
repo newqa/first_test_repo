@@ -28,10 +28,12 @@ public class ArraysExcercise {
 
         */
         int arrayForI[] = new int[6];
+
+        // wypełnienie tablicy
         for (int i = 0; i<6; i++) {
             arrayForI[i]=i+1;
         }
-
+        //wydrukowanie elementów
         for(int i:arrayForI) {
         System.out.println(i);
         }

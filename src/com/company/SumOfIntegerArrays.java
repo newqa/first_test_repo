@@ -7,9 +7,9 @@ public class SumOfIntegerArrays {
         int[] firstArrayOfInts = {6, 1, 5};
         int[] secondArrayOfInts = new int[3];
 
-        secondArrayOfInts[0] = 35;
-        secondArrayOfInts[1] = 45;
-        secondArrayOfInts[2] = 10;
+        secondArrayOfInts[0] = 3;
+        secondArrayOfInts[1] = 4;
+        secondArrayOfInts[2] = 1;
 
         int sumInFirstArray = 0;
         for (int i:firstArrayOfInts)
