@@ -11,16 +11,18 @@ public class SumOfIntegerArrays {
         secondArrayOfInts[1] = 4;
         secondArrayOfInts[2] = 1;
 
+        int sumInFirstArray = getSumInFirstArray(firstArrayOfInts);
+
+        int sumInSecondArray = getSumInFirstArray(secondArrayOfInts);
+
+        System.out.println(sumInFirstArray + sumInSecondArray);
+    }
+
+    private static int getSumInFirstArray(int[] firstArrayOfInts) {
         int sumInFirstArray = 0;
         for (int i : firstArrayOfInts) {
             sumInFirstArray += i;
         }
-
-        int sumInSecondArray = 0;
-        for (int i : secondArrayOfInts) {
-            sumInSecondArray += i;
-        }
-
-        System.out.println(sumInFirstArray + sumInSecondArray);
+        return sumInFirstArray;
     }
 }
