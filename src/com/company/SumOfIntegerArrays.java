@@ -12,17 +12,15 @@ public class SumOfIntegerArrays {
         secondArrayOfInts[2] = 1;
 
         int sumInFirstArray = 0;
-        for (int i:firstArrayOfInts)
-        {
-            sumInFirstArray +=i;
+        for (int i : firstArrayOfInts) {
+            sumInFirstArray += i;
         }
 
         int sumInSecondArray = 0;
-        for (int i:secondArrayOfInts)
-        {
-            sumInSecondArray +=i;
+        for (int i : secondArrayOfInts) {
+            sumInSecondArray += i;
         }
 
-        System.out.println(sumInFirstArray+sumInSecondArray);
-        }
+        System.out.println(sumInFirstArray + sumInSecondArray);
     }
+}

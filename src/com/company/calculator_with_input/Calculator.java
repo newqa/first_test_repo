@@ -1,12 +1,13 @@
 package com.company.calculator_with_input;
+
 import java.util.Scanner;
 
 public class Calculator {
 
-    public static final String plusSign = "+";
-    public static final String minusSign = "-";
-    public static final String divideSign = "/";
-    public static final String multiplySign = "*";
+    private static final String PLUS_SIGN = "+";
+    private static final String MINUS_SIGN = "-";
+    private static final String DIVIDE_SIGN = "/";
+    private static final String MULTIPLY_SIGN = "*";
 
     public static void main(String[] args) {
 
@@ -20,29 +21,29 @@ public class Calculator {
 
         System.out.println("Podaj pierwszą liczbę zmiennoprzecinkową ");
         a = scanner.nextFloat();
-        System.out.println("Podana liczba " + a);
+        System.out.println("Podana liczba " + a + "\n");
 
         System.out.println("Wybierz typ działania matematycznego (+, -, *, / )");
 
         Scanner scannerForOperation = new Scanner(System.in);
         operationInput = scannerForOperation.nextLine();
 
-        System.out.println("Podaj drugą liczbę zmiennoprzecinkową ");
+        System.out.println("\n" + "Podaj drugą liczbę zmiennoprzecinkową ");
         b = scanner.nextFloat();
         System.out.println("Podana liczba " + b);
 
         switch (operationInput) {
-            case plusSign:
-                System.out.println("Wynik dodawania: " + calculate.add(a,b));
+            case PLUS_SIGN:
+                System.out.println("Wynik dodawania: " + calculate.add(a, b));
                 break;
-            case minusSign:
-                System.out.println("Wynik odejmowania :: " + calculate.subtract(a,b));
+            case MINUS_SIGN:
+                System.out.println("Wynik odejmowania :: " + calculate.subtract(a, b));
                 break;
-            case divideSign:
-                System.out.println("Wynik dzielenia :: " + calculate.divide(a,b));
+            case DIVIDE_SIGN:
+                System.out.println("Wynik dzielenia :: " + calculate.divide(a, b));
                 break;
-            case multiplySign:
-                System.out.println("Wynik mnożenia :: " + calculate.multiply(a,b));
+            case MULTIPLY_SIGN:
+                System.out.println("Wynik mnożenia :: " + calculate.multiply(a, b));
                 break;
             default:
                 System.out.println("Wybierz poprawny symbol operacji :(");
