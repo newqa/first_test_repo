@@ -2,6 +2,7 @@ package com.company.calculator_with_input;
 
 import java.util.Scanner;
 
+
 public class Calculator {
 
     private static final String ADD_OPERATION = "+";
@@ -28,16 +29,17 @@ public class Calculator {
 
         switch (operationInput) {
             case ADD_OPERATION:
-                System.out.println("Wynik dodawania: " + calculate.add(firstNumber, secondNumber));
+                System.out.println("Wynik dodawania: " + String.format("%.02f", calculate.add(firstNumber, secondNumber)));
                 break;
             case SUBTRACT_OPERATION:
-                System.out.println("Wynik odejmowania :: " + calculate.subtract(firstNumber, secondNumber));
+                System.out.println("Wynik odejmowania :: " + String.format("%.02f", calculate.subtract(firstNumber, secondNumber)));
                 break;
             case DIVIDE_OPERATON:
-                System.out.println("Wynik dzielenia :: " + calculate.divide(firstNumber, secondNumber));
+                System.out.println("Wynik dzielenia :: " + String.format("%.02f", calculate.divide(firstNumber, secondNumber)));
                 break;
+                //String formattedString = ("%.02f", myFloat);
             case MULTIPLY_OPERATION:
-                System.out.println("Wynik mnożenia :: " + calculate.multiply(firstNumber, secondNumber));
+                System.out.println("Wynik mnożenia :: " + String.format("%.02f", calculate.multiply(firstNumber, secondNumber)));
                 break;
             default:
                 System.out.println("Wybierz poprawny symbol operacji :(");

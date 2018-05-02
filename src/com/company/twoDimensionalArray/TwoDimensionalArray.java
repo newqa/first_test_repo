@@ -18,22 +18,22 @@ public class TwoDimensionalArray {
         arrayOfDoubles[2][2] = 3.0;
 
         double firstValue = arrayOfDoubles[0][0];
-        double fifthValue = arrayOfDoubles[1][1];
-        double ninthValue = arrayOfDoubles[2][2];
-        System.out.println("Sum of values in first diagonal: " + (firstValue + fifthValue + ninthValue));
-
         double thirdValue = arrayOfDoubles[2][0];
+        double fifthValue = arrayOfDoubles[1][1];
         double seventhValue = arrayOfDoubles[0][2];
-        System.out.println("Sum of values in second diagonal: " + (thirdValue + fifthValue + seventhValue));
+        double ninthValue = arrayOfDoubles[2][2];
+        double result = (firstValue * fifthValue * ninthValue) + (thirdValue * fifthValue * seventhValue);
+        System.out.println("Sum of diagonal products: " + result);
 
         double secondValue = arrayOfDoubles[1][0];
         double eighthValue = arrayOfDoubles[1][2];
-        System.out.println("Multiplication of values in middle row: " + (secondValue * fifthValue * eighthValue));
-
         double fourthValue = arrayOfDoubles[0][1];
         double sixthValue = arrayOfDoubles[2][1];
-        System.out.println("Multiplication of values in middle column: " + (fourthValue * fifthValue * sixthValue));
+        double result1 = (secondValue + fifthValue + eighthValue) * (fourthValue + fifthValue + sixthValue);
+        System.out.println("Multiplication of values in middle row and middle column: " + result1);
 
-        System.out.println("Sum of all edge values: " + (fifthValue + secondValue + thirdValue + fourthValue + sixthValue + seventhValue + eighthValue + ninthValue));
+
+        double result2 = (firstValue+ secondValue + thirdValue + fourthValue + sixthValue + seventhValue + eighthValue + ninthValue);
+        System.out.println("Sum of all edge values: " + result2);
     }
 }

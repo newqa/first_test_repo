@@ -14,6 +14,7 @@ public class Arrays {
         int sumInArray = 0;
         for (int i : array) {
             sumInArray += i;
+            System.out.println(i);
         }
         System.out.println(sumInArray);
     }
