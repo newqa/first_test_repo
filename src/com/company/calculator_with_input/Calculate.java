@@ -1,5 +1,6 @@
 package com.company.calculator_with_input;
 
+
 public class Calculate {
 
     public float add(float x, float y) {

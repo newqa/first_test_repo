@@ -1,6 +1,7 @@
 package com.company.calculator_with_input;
 
 import java.util.Scanner;
+import java.text.*;
 
 
 public class Calculator {
@@ -9,6 +10,12 @@ public class Calculator {
     private static final String SUBTRACT_OPERATION = "-";
     private static final String DIVIDE_OPERATON = "/";
     private static final String MULTIPLY_OPERATION = "*";
+
+    public static void roundFloat (float result){
+        DecimalFormat myFormatter = new DecimalFormat("##.####");
+        String output = myFormatter.format(result);
+        System.out.println(output);
+    }
 
     public static void main(String[] args) {
 
@@ -27,19 +34,23 @@ public class Calculator {
         float secondNumber = scanner.nextFloat();
         System.out.println("Podana liczba " + secondNumber);
 
+
         switch (operationInput) {
             case ADD_OPERATION:
-                System.out.println("Wynik dodawania: " + String.format("%.02f", calculate.add(firstNumber, secondNumber)));
+                float addingResult = calculate.add(firstNumber, secondNumber);
+                roundFloat(addingResult);
                 break;
             case SUBTRACT_OPERATION:
-                System.out.println("Wynik odejmowania :: " + String.format("%.02f", calculate.subtract(firstNumber, secondNumber)));
+                float substractionResult = (calculate.subtract(firstNumber, secondNumber));
+                roundFloat(substractionResult);
                 break;
             case DIVIDE_OPERATON:
-                System.out.println("Wynik dzielenia :: " + String.format("%.02f", calculate.divide(firstNumber, secondNumber)));
+                float divisionResult = (calculate.divide(firstNumber, secondNumber));
+                roundFloat(divisionResult);
                 break;
-                //String formattedString = ("%.02f", myFloat);
             case MULTIPLY_OPERATION:
-                System.out.println("Wynik mnożenia :: " + String.format("%.02f", calculate.multiply(firstNumber, secondNumber)));
+                float multiplicationResult = (calculate.multiply(firstNumber, secondNumber));
+                roundFloat(multiplicationResult);
                 break;
             default:
                 System.out.println("Wybierz poprawny symbol operacji :(");
