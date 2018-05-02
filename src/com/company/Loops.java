@@ -9,8 +9,16 @@ public class Loops {
                 continue;
             }
             System.out.println("Uneven number in loop: " + i);
-
         }
+
+        for (int j = 0; j < 5; j++) {
+            if (j == 3) {
+                break;
+            }
+            System.out.println(j);
+        }
+
     }
 }
+
 
