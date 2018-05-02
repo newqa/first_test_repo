@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abd2d74b-b1bf-42b5-b6f6-ec42add2f33b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Loops.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projects/com/company/ArraysExcercise.class" afterPath="$PROJECT_DIR$/out/production/Projects/com/company/ArraysExcercise.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projects/com/company/SumOfIntegerArrays.class" afterPath="$PROJECT_DIR$/out/production/Projects/com/company/SumOfIntegerArrays.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projects/com/company/arrays/test/Arrays.class" afterPath="$PROJECT_DIR$/out/production/Projects/com/company/arrays/test/Arrays.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projects/com/company/calculator_with_input/Calculator.class" afterPath="$PROJECT_DIR$/out/production/Projects/com/company/calculator_with_input/Calculator.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ArraysExcercise.java" afterPath="$PROJECT_DIR$/src/com/company/ArraysExcercise.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SumOfIntegerArrays.java" afterPath="$PROJECT_DIR$/src/com/company/SumOfIntegerArrays.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/arrays/test/Arrays.java" afterPath="$PROJECT_DIR$/src/com/company/arrays/test/Arrays.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/calculator_with_input/Calculator.java" afterPath="$PROJECT_DIR$/src/com/company/calculator_with_input/Calculator.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/twoDimensionalArray/TwoDimensionalArray.java" afterPath="$PROJECT_DIR$/src/com/company/twoDimensionalArray/TwoDimensionalArray.java" />
-    </list>
+    <list default="true" id="abd2d74b-b1bf-42b5-b6f6-ec42add2f33b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -174,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1934" />
     <option name="height" value="1047" />
@@ -441,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1934" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
