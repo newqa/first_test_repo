@@ -5,15 +5,14 @@ public class Student {
     private String name;
     private String surname;
     private int indexNumber;
-    
 
-    public Student() {
-    }
+    public static int counter = 0;
 
     public Student(String name, String surname, int indexNumber) {
         this.name = name;
         this.surname = surname;
         this.indexNumber = indexNumber;
+        counter++;
     }
 
     public void setName(String name) {
@@ -40,12 +39,10 @@ public class Student {
         return indexNumber;
     }
 
-
-    public countStudents
+    public Student printStudent()
     {
-        counter++;
-
+        System.out.println(getName() + getSurname() + getIndexNumber());
+        return this;
     }
-
 
 }
