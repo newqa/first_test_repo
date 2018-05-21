@@ -11,6 +11,8 @@ public class Calculator {
     private static final String DIVIDE_OPERATON = "/";
     private static final String MULTIPLY_OPERATION = "*";
 
+    //roundfloat
+
     public static void roundFloat (float result){
         DecimalFormat myFormatter = new DecimalFormat("##.####");
         String output = myFormatter.format(result);
