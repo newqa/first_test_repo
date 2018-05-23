@@ -15,7 +15,7 @@ public class HospitalApp {
         Scanner scanner = new Scanner(System.in);
         Scanner scanOption = new Scanner(System.in);
         // dlaczego trzeba tu zadeklarować zmienną (dowolną??) bo to pętla i musi mieć licznik? dlaczego -1 lub inny
-        int input = -1;
+        int input = 8;
 
         while (input != EXIT) {
 
