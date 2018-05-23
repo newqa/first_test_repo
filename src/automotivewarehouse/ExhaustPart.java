@@ -11,10 +11,6 @@ public class ExhaustPart extends Part {
         this.compliesWithEmissionStandard = compliesWithEmissionStandard;
     }
 
-    public ExhaustPart(boolean compliesWithEmissionStandard) {
-        this.compliesWithEmissionStandard = compliesWithEmissionStandard;
-    }
-
     public void setCompliesWithEmissionStandard(boolean compliesWithEmissionStandard) {
         this.compliesWithEmissionStandard = compliesWithEmissionStandard;
     }

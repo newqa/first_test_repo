@@ -22,9 +22,6 @@ public class Rim extends Part {
         this.width = width;
     }
 
-    public Rim () {
-    }
-
     public void printThisPart() {
         System.out.println("RIM's parameters:" + "\n" + "Id: " + getPartId() + "\n" + "Product series " + getProductSeries() + "\n" + "Model " + getModel() + "\n" + "Size " + getSize() + "\n" + "Width " + getWidth());
         System.out.println();
