@@ -4,10 +4,6 @@ public class Rim extends Part {
     private double size;
     private double width;
 
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
     public double getSize() {
         return size;
     }

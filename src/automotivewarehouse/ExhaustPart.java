@@ -20,8 +20,8 @@ public class ExhaustPart extends Part {
     }
 
     public void printThisPart() {
-       System.out.println("EXHAUST PART parameters" + "\n" + "Id: " + getPartId() + "\n" +"Product series " + getProductSeries() + "\n" +"Model " + getModel() + "\n" + "Complies with EU standard " + isCompliesWithEmissionStandard());
-       System.out.println();
+        System.out.println("EXHAUST PART parameters" + "\n" + "Id: " + getPartId() + "\n" + "Product series " + getProductSeries() + "\n" + "Model " + getModel() + "\n" + "Complies with EU standard " + isCompliesWithEmissionStandard());
+        System.out.println();
     }
 
 }

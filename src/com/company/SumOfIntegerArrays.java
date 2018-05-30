@@ -16,6 +16,7 @@ public class SumOfIntegerArrays {
         int sumInSecondArray = getSumInArray(secondArrayOfInts);
 
         System.out.println(sumInFirstArray + sumInSecondArray);
+
     }
 
     private static int getSumInArray(int[] ArrayOfInts) {
@@ -25,4 +26,6 @@ public class SumOfIntegerArrays {
         }
         return sumInArray;
     }
+
+
 }

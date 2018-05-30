@@ -4,7 +4,7 @@ public class Apple extends Fruit {
 
     public String variant;
 
-    public Apple (String variant) {
+    public Apple(String variant) {
         this.variant = variant;
     }
 

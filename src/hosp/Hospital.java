@@ -17,8 +17,6 @@ public class Hospital {
             patients = new Patient[MAX_PATIENTS_NUM];
             registeredPatiens = 0;
         }
-
-
         // co znaczy  patients[regPatiens] = patient; przy wywołaniu addPatient dodwanany jest obiekt (klasa patient) i indeks zwiększany?;
 
         public void addPatient(Patient patient) {

@@ -5,9 +5,6 @@ public class Tire extends Part {
     private double size;
     private double width;
 
-    public void setWidth(double width) {
-        this.width = width;
-    }
 
     public double getSize() {
         return size;
@@ -21,9 +18,6 @@ public class Tire extends Part {
         super(partId, model, productSeries);
         this.size = size;
         this.width = width;
-    }
-
-    public Tire() {
     }
 
     public void printThisPart() {
