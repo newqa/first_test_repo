@@ -3,7 +3,6 @@ package excercise;
 import java.util.Scanner;
 
 public class LoopWithNumberChoice {
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -21,6 +20,5 @@ public class LoopWithNumberChoice {
         }
         while (counter < numberChoice);
         System.out.println(sum);
-
     }
 }
