@@ -1,6 +1,6 @@
 package com.company;
 
-public class Human extends Humans {
+public class Human {
     private String name;
     private String age;
 
@@ -28,8 +28,8 @@ public class Human extends Humans {
         this.age = age;
     }
 
-    public Human printThisHuman(Human human){
-        System.out.println(human.getName() + human.getAge());
+    public Human printThisHuman(){
+        System.out.println(getName() + getAge());
         return this;
     }
 }
