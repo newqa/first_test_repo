@@ -11,10 +11,6 @@ public class Humans {
 
         Human human3 = new Human();
 
-        //human1.printHuman(human1);
-       /* human2.printHuman(human2);
-        human3.printHuman(human3);*/
-
         human1.printThisHuman(human1);
         human2.printThisHuman(human2);
         human3.printThisHuman(human3);
